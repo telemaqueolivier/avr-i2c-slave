@@ -1,6 +1,5 @@
-DEVICE = atmega168
-MCU    = atmega168
-F_CPU  = 8000000
+MCU    = atmega328p
+F_CPU  = 2000000L
 TARGET = slave
 
 CC      = avr-gcc 
